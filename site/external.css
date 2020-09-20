@@ -16,7 +16,7 @@ p{
     margin-right: auto;
     font-family: 'Times New Roman', Times, serif;
     color: black;
-    
+    padding-top: 20px;
 }
 .d1, .d2, .d3 {
     padding: 5px;
@@ -30,6 +30,7 @@ p{
     width: 80px;
     height: 20px;
     text-align: center;
+    padding: 0px;
 }
 #p2 {
     border: 2px solid black;
@@ -38,6 +39,7 @@ p{
     width: 80px;
     height: 20px;
     text-align: center;
+    padding: 0px;
 }
 #p3 {
     border: 2px solid black;
@@ -46,6 +48,7 @@ p{
     width: 80px;
     height: 20px;
     text-align: center;
+    padding: 0px;
 }
 
 .row {
