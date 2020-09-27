@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    color: black;
+    background-color: lightseagreen;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container{
+    margin: 0%;
+    padding: 0%;
+}
+
+#header-nav{
+    background-color:lightcyan;
+    border: 2px solid black;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.navbar-brand h1{ /* Food,LLC*/
+    font-size: 1.5em;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #222;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 5px;
+    line-height: 0.75;
+}
+
+/*mobile phone*/
+@media (max-width: 575px) {
+    .navbar-collapse {
+        width: 100%;
+        background-color: rgb(166, 255, 255);
+        text-align: center;
+        visibility: hidden;  /* dropdown menu is hidden even upon click*/
+        border-top: 1px solid black;
+        border-left: 1px solid black;
+        border-right: 1px solid black;
+    }
+    .navbar-collapse.show {
+        visibility: visible;
+    }  /* shows dropdown upon click and make some delay*/
+    li, .nav-list {
+        border-bottom: 1px solid black;
+        font-size: 1.2em;
+    }
+    li, a:hover {
+        text-decoration: none;
+    }
+}
+
+section {
+    background-color: white;
+}
+
+/* Our menu */
+#page-heading {
+    font-weight: normal;
+    text-shadow: 1px 1px 1px #222;
+}
+header {
+    font-size: 1.3em;
+    text-shadow: 1px 1px 1px #222;
+}
+p {
+    padding-left: 5px;
+    padding-right: 5px;
+}
